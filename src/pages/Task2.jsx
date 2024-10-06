@@ -23,17 +23,17 @@ export const Task2 = () => {
     <div className=" flex flex-col gap-5 w-full">
       <p className=" text-2xl font-semibold">User Info</p>
       <p className=" font-semibold text-lg">
-        Name: {data[0].firstName} {data[0].lastName}
+        Name: {data[0]?.firstName} {data[0]?.lastName}
       </p>
       <p className=" font-semibold text-lg">
-        Employee ID: {data[0].employeeID}
+        Employee ID: {data[0]?.employeeID}
       </p>
 
-      <p className=" font-semibold text-lg">Email: {data[0].email}</p>
-      <p className=" font-semibold text-lg">City: {data[0].city}</p>
-      <p className=" font-semibold text-lg">Country: {data[0].country}</p>
+      <p className=" font-semibold text-lg">Email: {data[0]?.email}</p>
+      <p className=" font-semibold text-lg">City: {data[0]?.city}</p>
+      <p className=" font-semibold text-lg">Country: {data[0]?.country}</p>
       <p className=" font-semibold text-lg">
-        Phone Number: {data[0].phoneNumber}
+        Phone Number: {data[0]?.phoneNumber}
       </p>
 
       {data.length > 0 ? (
