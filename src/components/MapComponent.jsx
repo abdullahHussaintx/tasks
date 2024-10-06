@@ -39,7 +39,7 @@ const PersonMap = ({ persons }) => {
   return (
     <MapContainer
       center={centerPosition}
-      zoom={6}
+      zoom={10}
       style={{ height: "400px", width: "100%" }}
     >
       <TileLayer
