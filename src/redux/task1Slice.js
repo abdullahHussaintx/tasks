@@ -1,7 +1,8 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const endpoint = "http://frontier.earnflex.com/earnflex_get_all_timesheet_data";
+const endpoint =
+  "https://frontier.earnflex.com/earnflex_get_all_timesheet_data";
 
 const getActivationCode = async () => {
   try {

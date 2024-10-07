@@ -1,6 +1,8 @@
 import { Button } from "./components/Button";
 import { useNavigations } from "./hooks/useNavigations";
 import { tasksButton } from "./utils/data";
+import ss1 from "./assets/ss1.png";
+import ss2 from "./assets/ss2.png";
 
 export const App = () => {
   const { handleClick } = useNavigations();
