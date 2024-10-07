@@ -66,7 +66,7 @@ export const Task1 = () => {
           Note: use Web User Name : demo
         </p>
       </div>
-      <div className="  overflow-y-auto  h-96">
+      <div className="  overflow-y-auto w-[90%] h-96">
         {loading ? (
           <p className=" text-2xl">Loading...</p>
         ) : (
